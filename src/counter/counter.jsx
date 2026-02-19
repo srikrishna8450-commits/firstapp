@@ -1,7 +1,7 @@
 import { useState } from "react"
-function Counter(props){
-    console.log(props)
-    var [c , fun]= useState(props.v);
+function Counter(){
+    console.log()
+    var [c , fun]= useState(0);
         function Inc(){
            fun(c+1)
         }
